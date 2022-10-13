@@ -1,10 +1,11 @@
 .card {
   background-color: #007c7e;
-  width: 220px;
-  height: 250px;
+  height: 220px;
   flex-grow: 1;
   flex-shrink: 0;
   border-radius: 20px;
+  width: 220px;
+  display: flex;
 }
 
 .container {
@@ -14,8 +15,7 @@
 }
 
 .card-icon {
-  width: 80px;
   fill: #97d0ca;
-  text-align: center;
   stroke: #97d0ca;
+  margin: auto;
 }
