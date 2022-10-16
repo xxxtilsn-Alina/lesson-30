@@ -1,10 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
 .card {
   background-color: #007c7e;
-  height: 220px;
+  height: 240px;
   flex-grow: 1;
   flex-shrink: 0;
   border-radius: 20px;
-  width: 220px;
+  width: 50px;
   display: flex;
 }
 
@@ -18,4 +24,12 @@
   fill: #97d0ca;
   stroke: #97d0ca;
   margin: auto;
+  width: 80px;
+}
+
+.text {
+  position: relative;
+  top: 75%;
+  right: 50%;
+  color: white;
 }
